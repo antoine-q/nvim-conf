@@ -3,4 +3,8 @@
 -- Add any additional options here
 --
 -- vim.opt.spell = true
--- vim.opt.spelllang = { "fr", "en" }
+vim.opt.spelllang = { "fr", "en" }
+vim.diagnostic.enable = true
+vim.diagnostic.config({
+  virtual_text = true,
+})
