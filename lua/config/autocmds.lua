@@ -8,7 +8,9 @@
 -- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
 --
 --
---
+
+-- Permet de copier le chemin courant du ficher.
+-- Marche pas super bien sur windows
 vim.api.nvim_create_user_command("CopyPath", function(context)
   local full_path = vim.fn.glob("%:p")
 

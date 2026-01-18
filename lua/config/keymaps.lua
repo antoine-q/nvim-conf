@@ -4,5 +4,7 @@
 --
 --
 
+-- Ajouter un raccourci pour quitter plus facilement le mode edition
 vim.keymap.set("i", "jk", "<esc>")
+vim.keymap.set("v", "jk", "<esc>")
 vim.keymap.set("n", "<Leader>ds", vim.diagnostic.open_float, { desc = "Show diagnostic" })

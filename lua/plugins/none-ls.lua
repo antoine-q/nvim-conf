@@ -18,6 +18,6 @@ return {
       },
     })
 
-    vim.keymap.set("n", "<leader>Gf", vim.lsp.buf.format, {})
+    vim.keymap.set("n", "<leader>Gf", vim.lsp.buf.format, { desc = "Format document" })
   end,
 }
